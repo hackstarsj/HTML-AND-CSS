@@ -1,0 +1,61 @@
+CSS is Basically Cascading Stylesheet Which we can use to add Designing on Our Web pages
+Like Marging,Padding,Border,Width,Height,Background,Position,Opacity
+
+Syntax : 
+
+Selector {property1:value1;property2:value2}
+E.g : p { background:red }
+
+[It will select all the P Tag and Change its background color to Red]
+
+Selector :  for selecting the HTML Element
+Property : Height,Width,background Etc,
+value : 100px,red,100px Etc
+
+
+Different Types of Way for Adding CSS in Web pages
+
+1. Inline
+2. Internal
+3. External
+
+
+
+Element CSS Applying Priority:
+
+1. Inline
+2. Internal
+3. External
+
+
+=====================================Different Types of Selector===========================
+
+1. ID Selector
+Id Selector Start with #
+
+E.g #abc { property1:value1 }
+
+Where abc is id of any Element like <div id="abc">
+
+-----------------------------------------------------------------------------------------------
+2. Class Selector
+Class Selector Start with . (dot)
+
+E.g .abc { property1:value1 }
+
+Where abc is Class of any Element like <div class="abc">
+-----------------------------------------------------------------------------------------------
+3. Parent Child Selector
+Parent Child Selector Combination of multiple Selector .abc .def
+
+E.g .abc .def { property1:value1 }
+
+Where abc is parent and def is child Element class  <div class="abc">   <div class="def"></div><div class="def"></div>  </div>
+
+-------------------------------------------------------------------------------------------------
+4. Tag/Element Selector
+Class Selector Start with tagname [p,div]
+
+E.g div { property1:value1 }
+
+Where div is Element like <div></div>

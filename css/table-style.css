@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+}
+table{
+    width: 100%;
+}
+
+th,td,table{
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 8px;
+}
+
+th{
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 3px 3px 3px grey;
+}

@@ -1,58 +1,60 @@
 <html>
     <head>
         <title>My First Web Page</title>
+        <!-- Addding External Css for Form -->
+        <link rel="stylesheet" href="css/style-form.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- h1,h2,h3,h4,h5,h6 all are different type of Heading Text from Big to Small -->
-        <h4>Simple Registration form Example : </h4>
-        <form>
-            <div>
-                <label>Username : </label><br>
-                <input type="text" placeholder="Username">
+        <form class="mainform">
+            <h4 class="mainTitle">Simple Registration form Example : </h4>
+            <div class="form-group mt-5">
+                <label>Username : </label>
+                <input type="text" placeholder="Username" class="form-input">
             </div>
-            <div>
-                <label>Password : </label><br>
-                <input type="password">
+            <div class="form-group">
+                <label>Password : </label>
+                <input type="password" class="form-input">
             </div>
-            <div>
-                <label>Age : </label><br>
-                <input type="number">
+            <div class="form-group">
+                <label>Age : </label>
+                <input type="number" class="form-input">
             </div>
-            <div>
-                <label>DOB : </label><br>
-                <input type="date">
+            <div class="form-group">
+                <label>DOB : </label>
+                <input type="date" class="form-input">
             </div>
-            <br>
-            <div>
-                <label>Gender : </label><br>
+            <div class="form-group">
+                <label>Gender : </label>
                 <input type="radio" name="gender"> Male
                 <input type="radio" name="gender"> Female
             </div>
-            <div>
-                <label>Skills : </label><br>
-                <input type="checkbox" name="Skills[]"> HTML<br>
-                <input type="checkbox" name="Skills[]"> CSS<br>
-                <input type="checkbox" name="Skills[]"> JS<br>
-                <input type="checkbox" name="Skills[]"> PHP<br>
-                <input type="checkbox" name="Skills[]"> Database<br>
+            <div class="form-group">
+                <label>Skills : </label>
+                <input type="checkbox" name="Skills[]"> HTML
+                <input type="checkbox" name="Skills[]"> CSS
+                <input type="checkbox" name="Skills[]"> JS
+                <input type="checkbox" name="Skills[]"> PHP
+                <input type="checkbox" name="Skills[]"> Database
             </div>
-            <div>
-                <label>Country:</label><br>
-                <select>
+            <div class="form-group">
+                <label>Country:</label>
+                <select class="form-input">
                     <option>India</option>
                     <option>USA</option>
                     <option>UK</option>
                     <option>Russia</option>
                 </select>
             </div>
-            <br>
-            <div>
-                <label>About You?</label><br>
-                <textarea></textarea>
+            <div class="form-group">
+                <label>About You?</label>
+                <textarea class="form-input"></textarea>
             </div>
-            <br>
-            <div>
-                <button>SUBMIT FORM</button>
+            <div class="form-group">
+                <button class="form-btn">SUBMIT FORM</button>
             </div>
         </form>
     </body>

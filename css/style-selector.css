@@ -1,0 +1,27 @@
+/* Element Selector */
+div {
+    background-color: orange;
+}
+
+/* Id Selector */
+#myidselector {
+    color: red;
+}
+
+/* Class Selector */
+.myclassselector{
+    color: green;
+}
+
+/* tag with Class Selector for Parent Child Selector */
+ul.fruitclass li{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* tag with Class Selector for Parent Child Selector Second Level */
+ul.fruitclass li p{
+    background-color: yellow;
+}

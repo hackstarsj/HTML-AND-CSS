@@ -1,0 +1,141 @@
+.colorbg{
+    background-color: orange;
+    height: 200px;
+}
+.bgimage{
+    background-image: url('../img/image1.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.border-example{
+    /* Expanded Way  */
+    border-width: 1px;
+    border-style: solid;
+    border-color: orange;
+    /* Short Hand Way */
+    border: 1px solid orange;
+    height: 100px;
+}
+.border-example2{
+    border-top: 10px solid red;
+    border-bottom: 10px solid orange;
+    border-left: 10px solid greenyellow;
+    border-right: 10px solid blueviolet;
+    /* Expanded Way */
+    border-radius: 10px 10px  0px 0px;
+    /* Combined Way */
+    border-radius: 10px;
+    height: 100px;
+}
+
+.margin-padding-example{
+    margin: 20px;
+    padding: 20px;
+    background-color: blueviolet;
+    border:20px solid orange;
+    height: 100px;
+}
+.box-shadow-example{
+    height: 100px;
+    background-color: orange;
+    box-shadow: 3px 3px 3px darkgrey;
+}
+.color-example{
+    color: white;
+    height: 100px;
+    background-color: red;
+    box-shadow: 3px 3px 3px darkgrey;
+
+}
+.text-align-example{
+    color: white;
+    height: 100px;
+    background-color: red;
+    box-shadow: 3px 3px 3px darkgrey;   
+}
+.opacity-example{
+    color: white;
+    height: 100px;
+    background-color: orangered;
+    box-shadow: 3px 3px 3px darkgrey; 
+    opacity: 0.7;  
+}
+.opacity-example2{
+    color: white;
+    height: 100px;
+    background-color: orangered;
+    box-shadow: 3px 3px 3px darkgrey; 
+    opacity: 1;  
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.display-property-example{
+    background-color: red;
+    display: flex;
+}
+.display-property-example div{
+    flex: 1;
+}
+.position-fixed-examle{
+    color: white;
+    padding: 10px;
+    background-color: greenyellow;
+    border: none;
+    box-shadow: 3px 3px 3px darkgrey; 
+    /* Customize Mouse Cursor using cursor property */
+    cursor: pointer;
+    /* Position Fixed */
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    /* Z index is used to make element overlap to all the elements by applying maximum value */
+    z-index: 9;
+}
+.position-relative{
+    color: white;
+    height: 100px;
+    background-color: orangered;
+    box-shadow: 3px 3px 3px darkgrey; 
+    position: relative;
+}
+.position-absolute-examle{
+    color: white;
+    padding: 10px;
+    background-color: greenyellow;
+    border: none;
+    box-shadow: 3px 3px 3px darkgrey; 
+    /* Customize Mouse Cursor using cursor property */
+    cursor: pointer;
+    /* Position Fixed */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.rotate-example{
+    rotate: 90deg;
+}
+div {
+    margin: 10px;
+    padding: 10px
+}
+/* Media Query Example */
+/* This Style Get Execute when Screen size less than 480px */
+@media screen and (max-width:480px){
+    .display-property-example{
+        display: block
+    }
+}
+/* This Style Get Execute when Screen size More than 500px */
+@media screen and (min-width:500px){
+    .opacity-example2{
+        border: 10px solid black;
+    }
+}
